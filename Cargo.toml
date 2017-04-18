@@ -1,0 +1,19 @@
+[package]
+name = "lebedev_laikov"
+version = "0.1.0"
+authors = ["Phil Ruffwind <rf@rufflewind.com>"]
+description = "Lebedev–Laikov quadrature for numerical integration in spherical coordinates."
+documentation = "https://docs.rs/lebedev_laikov"
+repository = "https://github.com/Rufflewind/lebedev_laikov"
+readme = "README.md"
+keywords = ["integration", "Lebedev", "Laikov", "numerical", "quadrature", "spherical"]
+categories = ["science"]
+license = "MIT/Apache-2.0"
+exclude = [".gitignore"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.21"
+
+[build-dependencies]
+gcc = "0.3.45"
